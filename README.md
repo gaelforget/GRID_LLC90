@@ -5,5 +5,9 @@ The included files define the global grid known as `LLC90` which was introduced 
 
 - the `tile00?.mitgrid` files are the native grid files (model input; 2D split in 5 subdomains).
 - `*.data` and `*.meta` files are the corresponding model output after adding vertical discretization and land mask (3D; global domain).
+
+In addition:
+
 - `v4_basin.bin` is a map of ocean basin indices (useful to analyze model output).
+- `SSH.bin`, `TrspX.bin`, `TrspY.bin`, `TauX.bin`, and `TauX.bin` are time-mean 2D climatologies from `ECCOv4 release 2` for sea surface height (m), wind stress (N/m2), and top-to-bottom seawater transport (m3/s).
 
